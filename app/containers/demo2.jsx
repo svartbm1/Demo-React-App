@@ -4,7 +4,7 @@ import moment from 'moment';
 import axios from 'axios';
 import * as todoActions from 'actions/todo';
 
-class Demo2 extends Component {
+class Demo extends Component {
 
   componentWillMount() {
     this.props.getAllTodos();
@@ -47,4 +47,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps, {...todoActions})(Demo2);
+export default connect(mapStateToProps, {...todoActions})(Demo);
