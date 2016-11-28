@@ -32,7 +32,14 @@ class Demo extends Component {
   }
 
   get(){
-  console.log("You clicked the button.")
+    const clicks = 1;
+
+    if (clicks == 1){
+      console.log("You clicked the button.")
+    } else {
+      console.log("You clicked the button again!")
+    }
+
   }
 
   render() {
